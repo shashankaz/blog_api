@@ -1,5 +1,4 @@
 import jwt from "jsonwebtoken";
-import { Post } from "../models/post.js";
 
 // Send cookie helper
 export const sendCookie = (user, res, message, statusCode) => {
