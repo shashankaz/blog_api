@@ -1,7 +1,7 @@
 import express from "express";
 import { config } from "dotenv";
-import userRouter from "./routes/user.js";
-import postRouter from "./routes/post.js";
+import userRouter from "./routes/userRoutes.js";
+import postRouter from "./routes/postRoutes.js";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 

@@ -1,5 +1,5 @@
 import express from "express";
-import { isAuthenticated } from "../middleware/auth.js";
+import { isAuthenticated } from "../middlewares/authMiddleware.js";
 import {
   newPost,
   getAllPosts,
@@ -12,7 +12,7 @@ import {
   addComment,
   updateComment,
   deleteComment,
-} from "../controllers/post.js";
+} from "../controllers/postController.js";
 
 const router = express.Router();
 

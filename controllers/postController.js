@@ -1,4 +1,4 @@
-import { Post } from "../models/post.js";
+import { Post } from "../models/postModel.js";
 import { handleErrors } from "../utils/helpers.js";
 
 // Create a new post
