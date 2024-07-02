@@ -6,7 +6,8 @@ export const connectDB = () => {
       dbName: "blog-api",
     })
     .then(() => {
-      console.log("Connected to MongoDB");
+      console.log(`Database Connected to ${mongoose.connection.host}`);
+      console.log(`dbName: ${mongoose.connection.name}`);
     })
     .catch((err) => {
       console.log("Error connecting to MongoDB", err);
